@@ -537,7 +537,7 @@ function keyPressed() {
 	img.noStroke();
 	img.rect(x1,x2,y1,y2);
 }*/
-	if (key == ESCAPE) {
+	if (keyCode == ESCAPE) {
 		reset();
 	}
     if(key == 'I'){
